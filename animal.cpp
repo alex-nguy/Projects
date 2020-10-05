@@ -3,6 +3,7 @@
 #include "cat.h"
 #include "rabbit.h"
 
+//Comment for Atom
 // Constructors / Destructors
 Animal::Animal(std::string name, Gender gender, int age)
     : _name{name}, _gender{gender}, _age{age} { }
@@ -57,4 +58,3 @@ std::ostream& operator<<(std::ostream& ost, const Gender& gender) {
     ost << to_string(gender);
     return ost;
 }
-
